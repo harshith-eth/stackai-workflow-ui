@@ -11,7 +11,7 @@ export interface NodeData {
 
 export interface FlowNode extends Node<NodeData> {}
 
-export interface FlowEdge extends Edge {}
+export type FlowEdge = Edge;
 
 export const initialNodes: FlowNode[] = [
   {
